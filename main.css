@@ -1,0 +1,65 @@
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+fieldset h1{
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+img#login_logo{
+    width:100px;
+    height:100px;
+    border-radius: 100%;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.923);
+    width: 300px;
+    
+    padding: 50px 20px 20px 20px;
+    margin: 200px auto;
+    
+}
+
+
+label{
+    color: white;
+    
+}
+input{
+    width: 99%;
+    height: 20px;
+}
+div {
+    margin-top: 20px ; 
+}
+
+button{
+    color: black;
+    background-color:rgba(255, 0, 0, 0.576);
+    border-radius: 100px;
+    padding: 5px 50px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none ;
+}
+a:hover{
+ 
+    text-decoration: underline;
+}
+
+input:focus:invalid{
+    border: 3px solid red;
+}
+
+.text-center{
+    text-align: center;
+}
+
